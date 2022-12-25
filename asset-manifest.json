@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/R2S-security/static/css/main.a3772b01.css",
-    "main.js": "/R2S-security/static/js/main.1bda0636.js",
+    "main.js": "/R2S-security/static/js/main.4ca50c6b.js",
     "index.html": "/R2S-security/index.html",
     "main.a3772b01.css.map": "/R2S-security/static/css/main.a3772b01.css.map",
-    "main.1bda0636.js.map": "/R2S-security/static/js/main.1bda0636.js.map"
+    "main.4ca50c6b.js.map": "/R2S-security/static/js/main.4ca50c6b.js.map"
   },
   "entrypoints": [
     "static/css/main.a3772b01.css",
-    "static/js/main.1bda0636.js"
+    "static/js/main.4ca50c6b.js"
   ]
 }
