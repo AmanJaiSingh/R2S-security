@@ -1,0 +1,78 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+/* -------------------slider-------------------------- */
+.arrow {
+  width: 50px;
+  height: 50px;
+  background-color: #fff7f7;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  cursor: pointer;
+  opacity: 0.5;
+  z-index: 2;
+}
+
+.Wraper_slider {
+  height: 100%;
+  display: flex;
+  transition: all 1.5s ease;
+}
+
+.Slider_1 {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.img_con {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.info_con {
+  padding: 62px;
+}
+.info_con h1 {
+  font-size: 70px;
+}
+.info_con p {
+  margin: 50px 0px;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 3px;
+}
+.info_con button {
+  padding: 10px;
+  font-size: 20px;
+  background-color: transparent;
+  border: 2px solid black;
+  cursor: pointer;
+}
+
+.active {
+  color: rgb(252 165 165);
+  border-top: 2px solid rgb(252 165 165);
+}
